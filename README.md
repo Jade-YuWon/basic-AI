@@ -3,10 +3,12 @@ learning records of basic python data analasis and pandas, etc.
 
 # Long-term Study Plan
 # 2022 ~
-## - URA (Undergraduate Reasearch Assistant)
-#### __CVIP Lab__ of Prof. Jung Yong-Ju at Gachon University
+## - URA (Undergraduate Reasearch Assistant) of CVIP Lab
+#### CVIP (Computer Vision & Image Processing) Lab of Prof. Jung Yong-Ju at Gachon University 
+https://sites.google.com/site/gachoncvip/home?authuser=0
 #### Study group with fellow URA Kim
-- __Basic of Computer Vision__
+- Attend at the Lab Seminar once in 2~4 weeks
+- __Learning the Basic of Computer Vision__
 - Data Analasis:
   -  Python, Pandas, EDA, Jupiter notebook
   -  Matplotlib, Plotly Library (Visualization)
