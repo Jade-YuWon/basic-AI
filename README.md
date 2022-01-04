@@ -32,13 +32,16 @@ https://sites.google.com/site/gachoncvip/home?authuser=0
 
 # Short-term Study Contents
 # 2021.12 ~ (Winter Vacation)
+⭕ : Learned as planned out <br>
+🔺 : Missed some part
+
 ## 21.12.28(Tue)
-Start Study group activity<br>
+Start Study group activity ⭕<br>
 Every Wed, Sat 10 PM
 ## ~22.01.01(Sat)
-1. Python Data analasis (Part 1): ~Section 03
-2. Basic of Machine Learning (Part 2): ~Section 03
-3. Linear Algebra for Everyone: ~Ch. 01
+1. Python Data analasis (Part 1): ~Section 03 ⭕
+2. Basic of Machine Learning (Part 2): ~Section 03 ⭕
+3. Linear Algebra for Everyone: ~Ch. 01 ⭕
 ## ~22.01.05(Wed)
 1. Python Data analasis (Part 1): ~Section 04
 6. Basic of Machine Learning (Part 2): ~Section 04 (+ 05)
