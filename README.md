@@ -45,5 +45,5 @@ Every Wed, Sat 10 PM
 ## ~22.01.05(Wed)
 1. Python Data analasis (Part 1): ~Section 04
 6. Basic of Machine Learning (Part 2): ~Section 04 (+ 05)
-7. Linear Algebra for Everyone: ~Ch. 04
+7. Linear Algebra for Everyone: ~Ch. 03 (+ 04)
 7. Linear Algebra for AI: ~Ch. 02
