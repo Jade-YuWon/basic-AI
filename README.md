@@ -1,16 +1,17 @@
-# basic-python-data-analasis
-learning records of basic python data analasis and pandas, etc.
+# basic-CV
+learning records of basic Computer Vision, such as python data analasis and pandas, etc.
 
 # Long-term Study Plan
 # 2022 ~
 ## - URA (Undergraduate Reasearch Assistant) of CVIP Lab
 #### CVIP (Computer Vision & Image Processing) Lab of Prof. Jung Yong-Ju at Gachon University 
-https://sites.google.com/site/gachoncvip/home?authuser=0
+- https://sites.google.com/site/gachoncvip/home?authuser=0
+- https://github.com/CVIP-LAB
 #### Study group with fellow URA Kim
-- Attend at the Lab Seminar once in 2~4 weeks
+- Attend at the Lab Seminar once in 2 \~ 4 weeks
 - __Learning the Basic of Computer Vision__
 - Data Analasis: (inflearn)
-  -  Python, Pandas, EDA, Jupiter notebook
+  -  **Python**, Pandas, EDA, Jupiter notebook
   -  Matplotlib, Plotly Library (Visualization)
 - Machine Learning: (inflearn)
   - Kaggle, Feature Engineering
@@ -19,9 +20,10 @@ https://sites.google.com/site/gachoncvip/home?authuser=0
 - Mathematics:
   - Linear Algebra (Khan Academy and Prof. Choo Jaegul)
   - Statitics and Probability
+    - Matrix Cookbook https://www.math.uwaterloo.ca/~hwolkowi/matrixcookbook.pdf
 - Deep Learning:
   - CNN
-  - Pytorch
+  - **Pytorch**
   - *Vision Transformer* (*Expected)
 ## - Major of Artificial Intelligence
   -  Data Structure with C
@@ -47,3 +49,9 @@ Every Wed, Sat 10 PM
 6. Basic of Machine Learning (Part 2): ~Section 04 (+ 05)
 7. Linear Algebra for Everyone: ~Ch. 03 (+ 04)
 7. Linear Algebra for AI: ~Ch. 02
+## 22.01.30(Sun)
+- Informal Graduate-Student applicant Seminar
+  - The State of the Art(sota) - AI https://paperswithcode.com/sota
+## 22.02.03(Thu)
+1. 
+2. 
