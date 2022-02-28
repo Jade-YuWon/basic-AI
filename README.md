@@ -55,3 +55,13 @@ Every Wed, Sat 10 PM
 ## 22.02.03(Thu)
 1. 
 2. 
+
+## 22.02.28 (Mon)
+1. Dilation and Stride
+  - input image
+  - sampling? grid
+  - dilation rate
+  - stride
+2. magic filter
+  - bilinear filter 이중선형 필터링
+  - bilateral filter 양방향 필터
