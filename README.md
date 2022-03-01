@@ -65,3 +65,26 @@ Every Wed, Sat 10 PM
 2. magic filter
   - bilinear filter 이중선형 필터링
   - bilateral filter 양방향 필터
+
+## 22.03.01 (Tue)
+1. Non-linearity of CNN
+  - Perceptron
+  - multi layers, input/hidden/output
+  - w(weights) tuning
+  - linearity
+  - bias
+  - ground truth
+  - activation function - **Sigmoid**
+2. Event camera vs. normal camera
+  - how shutter works
+  - filter and color values
+  - light and energy of photon
+  - condition of event camera
+  - price: expensive(event) / cheap(normal)
+3. Medical segmentation in 2D, 3D, 4D...
+  - Color image vs. Grayscale image
+  - different bits of level(2^8 vs. 2^16)
+  - voxel
+  - spine overlayed analysis
+4. etc
+  - attitude: ~~cry then you success~~ always learn from others, discuss, throw yourself into what you're fascinated
