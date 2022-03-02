@@ -88,3 +88,8 @@ Every Wed, Sat 10 PM
   - spine overlayed analysis
 4. etc
   - attitude: ~~cry then you success~~ always learn from others, discuss, throw yourself into what you're fascinated
+  - If you're not coding in my dream, I would fail.
+  - 학사 vs. 석사 vs. 박사
+    - Bachelor: Now I know everything!
+    - Master: What do I know?
+    - Ph.D: I know nothing
