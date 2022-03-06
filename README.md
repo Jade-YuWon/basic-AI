@@ -93,3 +93,20 @@ Every Wed, Sat 10 PM
     - Bachelor: Now I know everything!
     - Master: What do I know?
     - Ph.D: I know nothing
+
+## 22.03.06 (Sun)
+1. How computer vision identify a circle?
+- Geometric basic
+  - Area of circle: pi r^2
+  - Surface area of a Sphere: 4pi r^2
+  - Volume of a Sphere: 4/3 pi r^3
+- Popular apporoach: Hough Transformations
+  - 허프 변환 https://en.wikipedia.org/wiki/Hough_transform
+    - OpenCV 파이썬으로 만드는 OpenCV 프로젝트(이세우 저) https://bkshin.tistory.com/entry/OpenCV-23-%ED%97%88%ED%94%84-%EB%B3%80%ED%99%98Hough-Transformation
+  - generalized Hough transform (GHT) https://en.wikipedia.org/wiki/Generalised_Hough_transform
+  
+- Paper
+  - Circle detection on images by line segment and circle completeness: https://ieeexplore.ieee.org/document/7533040
+  - 
+  
+2. 
