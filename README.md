@@ -25,11 +25,11 @@ learning records of basic Computer Vision, such as python data analasis and pand
   - CNN
   - **Pytorch**
   - *Vision Transformer* (*Expected)
-## - Major of Artificial Intelligence
-  -  Data Structure with C
-  -  JAVA
+## - Major subjects of Artificial Intelligence
+  -  Data Structure and Practice with C
+  -  OOP(Objective Oreiented Programming) with JAVA
   -  Operating Systems
-  -  Probability and Statistics
+  -  Probabilities and Statistics
 
 
 # Short-term Study Contents
