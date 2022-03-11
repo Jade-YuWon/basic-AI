@@ -110,6 +110,9 @@ Every Wed, Sat 10 PM
   
 - Paper
   - Circle detection on images by line segment and circle completeness: https://ieeexplore.ieee.org/document/7533040
-  - 
-  
-2. 
+
+
+## 22.03.06 (Sun)
+- Computer vision vs. Computer Graphics
+  - CV: vector input, image/video output
+  - CG: image/video input, vector output
