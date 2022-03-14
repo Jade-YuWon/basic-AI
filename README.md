@@ -112,7 +112,12 @@ Every Wed, Sat 10 PM
   - Circle detection on images by line segment and circle completeness: https://ieeexplore.ieee.org/document/7533040
 
 
-## 22.03.06 (Sun)
+## 22.03.12 (Sat)
 - Computer vision vs. Computer Graphics
   - CV: vector input, image/video output
   - CG: image/video input, vector output
+
+## 22.03.14 (Mon)
+- Machine "not" learning
+  - Machines don't learng anything. Engineers don't teach or train machine.
+  - They just "approximate" and "estimate" parameters.
