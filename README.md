@@ -121,3 +121,7 @@ Every Wed, Sat 10 PM
 - Machine "not" learning
   - Machines don't learng anything. Engineers don't teach or train machine.
   - They just "approximate" and "estimate" parameters.
+
+## 22.03.16 (Wed)
+- Toy project such as 10 billion-unit calculator, ...
+- Bio & medical CV: 성분 normalization, robot 다관절 제어, 반려견 목둘레 자동 측정, ...
