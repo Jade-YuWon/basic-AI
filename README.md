@@ -133,7 +133,9 @@ Every Wed, Sat 10 PM
   1. Data processing
   2. Create Model 
   3. Model Optimazation
-
+- ROI(Region Of Interest)
+  - ROI는 뜻 그대로 **이미지나 영상 내에서 내가 관심있는 부분**을 뜻한다. 이미지 상의 특정 오브젝트나 특이점을 찾는 것을 목표로 할 때 쓴다. (비슷한 용어로는 COI(Channel Of Interest)라는 관심 채널이 있다.) 2020. 11. 24.
+  - [OpenCV 튜토리얼 5. 관심영역 ROI(Region Of Interest)](https://eusun0830.tistory.com/42) 
 
 
 
