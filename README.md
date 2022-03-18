@@ -125,3 +125,34 @@ Every Wed, Sat 10 PM
 ## 22.03.16 (Wed)
 - Toy project such as 10 billion-unit calculator, ...
 - Bio & medical CV: 성분 normalization, robot 다관절 제어, 반려견 목둘레 자동 측정, ...
+
+
+## 22.03.18 (Fri)
+- 대학진로탐색학점제 커리어캐치 AI프로젝트 - Pytorch Tutorial 복습
+- 머신러닝 과정(Machine Learning process)
+  1. Data processing
+  2. Create Model 
+  3. Model Optimazation
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
