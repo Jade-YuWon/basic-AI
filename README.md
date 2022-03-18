@@ -139,13 +139,18 @@ Every Wed, Sat 10 PM
 
 
 ## 22.03.19 (Sat)
-- OpenCV-Python Tutorial
-  > That said, Python can be easily extended with C/C++, which allows us to write computationally intensive code in C/C++ and create Python wrappers that can be used as Python modules.
+1. OpenCV-Python Tutorial
+> That said, Python can be easily extended with C/C++, which allows us to write computationally intensive code in C/C++ and create Python wrappers that can be used as Python modules.
   - Python wrappers
   - Python Module
 
-- Python image input
-  - image.
+2. Python image input
+  - cv2.imread(fileName, flag)
+    - gray = cv2.imread(fname, cv2.IMREAD_GRAYSCALE)
+  - cv2.imshow(title, image)
+      - title(str) – 윈도우 창의 Title  
+      - image (numpy.ndarray) – cv2.imread() 의 return값
+  - cv2.imwrite(fileName, image)
 ```python
 from google.colab import files
 uploaded = files.upload()
@@ -162,8 +167,15 @@ cv2_imshow(img)
 
 ```
 
-
-
+3. Detect Circle
+```python
+# cv2.HoughCircles(image, method, dp, minDist)
+circles = cv2.HoughCircles(gray, cv2.HOUGH_GRADIENT, 1.2, 100)
+```
+- image: 8-bit, single channel image. If working with a color image, convert to grayscale first.
+  - single channel image
+- method: Defines the method to detect circles in images. Currently, the only implemented method is cv2.HOUGH_GRADIENT, which corresponds to the [Yuen et al.](http://www.bmva.org/bmvc/1989/avc-89-029.pdf) paper.
+- 
 
 
 
