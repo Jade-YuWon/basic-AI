@@ -138,9 +138,29 @@ Every Wed, Sat 10 PM
   - [OpenCV 튜토리얼 5. 관심영역 ROI(Region Of Interest)](https://eusun0830.tistory.com/42) 
 
 
+## 22.03.19 (Sat)
+- OpenCV-Python Tutorial
+  > That said, Python can be easily extended with C/C++, which allows us to write computationally intensive code in C/C++ and create Python wrappers that can be used as Python modules.
+  - Python wrappers
+  - Python Module
 
+- Python image input
+  - image.
+```python
+from google.colab import files
+uploaded = files.upload()
+```
 
+>  A1_P3_detectCircle.png<br>
+> A1_P3_detectCircle.png(image/png) - 289220 bytes, last modified: 2022. 3. 16. - 100% done<br>
+> Saving A1_P3_detectCircle.png to A1_P3_detectCircle.png
+```python
+import cv2
+from google.colab.patches import cv2_imshow
+img = cv2.imread(os.path.join('./', 'A1_P3_detectCircle.png'))
+cv2_imshow(img)
 
+```
 
 
 
