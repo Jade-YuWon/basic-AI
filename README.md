@@ -175,7 +175,10 @@ circles = cv2.HoughCircles(gray, cv2.HOUGH_GRADIENT, 1.2, 100)
 - image: 8-bit, single channel image. If working with a color image, convert to grayscale first.
   - single channel image
 - method: Defines the method to detect circles in images. Currently, the only implemented method is cv2.HOUGH_GRADIENT, which corresponds to the [Yuen et al.](http://www.bmva.org/bmvc/1989/avc-89-029.pdf) paper.
-- 
+
+4. Construct the argument parser and parse the arguments
+ap = argparse.ArgumentParser()
+ap.add_argument("-i", "--image", required = True, help = "Path to the image")
 
 
 
