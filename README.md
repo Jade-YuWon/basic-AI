@@ -181,8 +181,27 @@ ap = argparse.ArgumentParser()
 ap.add_argument("-i", "--image", required = True, help = "Path to the image")
 
 
-
-
+## 22.03.22 (TUE)
+1. Contour = 동일한 색 또는 동일한 픽셀값(강도, intensity)을 가지고 있는 영역의 경계선 정보. 물체 윤곽/외형 파악에 사용.
+- contours, hierarchy = cv.findContours(binary_image, mode, method)
+  - mode = cv2.RETR_LIST, cv2.RETR_EXTERNAL, ...
+  - method = cv2.CHAIN_APPROX_NONE or cv2.CHAIN_APPROX_SIMPLE
+  - Binary image (Image segmentation 이진화)
+    - threshold(image_gray, thre, 255, cv2.THRESH_BINARY)
+  - Moment
+    - c0 = contours\[0\], M = cv2.moments(c0)
+    - 중심점(Contour center point): cx = int(M\['m10'\]/M\['m00'\]),  cy = int(M\['m01'\]/M\['m00'\])
+    - 면적(Contour area): M['m00'] 또는 cv2.contourArea(c0)
+  - drawContours(img_color, contours, contourIdx, color\[, thickness])
+    - contourIdx = -1: draw every contours to image
+    - thickness = -1: fill the contour(s)
+2. Blur
+- blurred_gray = cv2.blur(gray, (5,5))
+  - blurred_gray = cv2.GaussianBlur(gray, (5,5), 0)
+  - Median blurring
+  - bilateral filtering
+  - Erosion, Dilation / opening, closing (Morphology)
+3. cv, cv2, openCV 4.0
 
 
 
