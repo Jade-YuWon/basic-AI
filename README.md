@@ -204,7 +204,16 @@ ap.add_argument("-i", "--image", required = True, help = "Path to the image")
 3. cv, cv2, openCV 4.0
 
 
-
+## 22.03.24 (THU)
+1. Morphology(형태학) Operations
+- 4 popular operations
+  1. Erosion (침식)
+  2. Dilation (팽창)
+  3. Opening
+  4. Closing
+- other operations
+  5. 
+2. 
 
 
 
