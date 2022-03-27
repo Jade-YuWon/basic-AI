@@ -52,9 +52,6 @@ Every Wed, Sat 10 PM
 ## 22.01.30(Sun)
 - Informal Graduate-Student applicant Seminar
   - The State of the Art(sota) - AI https://paperswithcode.com/sota
-## 22.02.03(Thu)
-1. 
-2. 
 
 ## 22.02.28 (Mon)
 1. Dilation and Stride
