@@ -168,6 +168,8 @@ cv2_imshow(img)
 ```
 
 3. Detect Circle
+- [Official OpenCV Reference - Hough Circle Transform](https://docs.opencv.org/3.4/d4/d70/tutorial_hough_circle.html)
+- [Image Processing - Feature Detection - HoughCircles()](https://docs.opencv.org/4.x/dd/d1a/group__imgproc__feature.html#ga47849c3be0d0406ad3ca45db65a25d2d)
 ```python
 # cv2.HoughCircles(image, method, dp, minDist)
 circles = cv2.HoughCircles(gray, cv2.HOUGH_GRADIENT, 1.2, 100)
@@ -195,6 +197,7 @@ ap.add_argument("-i", "--image", required = True, help = "Path to the image")
   - drawContours(img_color, contours, contourIdx, color\[, thickness])
     - contourIdx = -1: draw every contours to image
     - thickness = -1: fill the contour(s)
+  - 참고글 https://bkshin.tistory.com/entry/OpenCV-22-%EC%BB%A8%ED%88%AC%EC%96%B4Contour
 2. Blur
 - blurred_gray = cv2.blur(gray, (5,5))
   - blurred_gray = cv2.GaussianBlur(gray, (5,5), 0)
@@ -202,6 +205,7 @@ ap.add_argument("-i", "--image", required = True, help = "Path to the image")
   - bilateral filtering
   - Erosion, Dilation / opening, closing (Morphology)
 3. cv, cv2, openCV 4.0
+4. 글자넣기 putText()
 
 
 ## ?
@@ -217,7 +221,10 @@ ap.add_argument("-i", "--image", required = True, help = "Path to the image")
   4. Closing
 - other operations
   5. 
-2. 
+2. drawKeypoints
+- [OpenCV Blob or Circle Detection](https://www.delftstack.com/howto/python/opencv-blob-detection/)
+- 
+3. 
 
 
 
