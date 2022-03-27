@@ -204,6 +204,10 @@ ap.add_argument("-i", "--image", required = True, help = "Path to the image")
 3. cv, cv2, openCV 4.0
 
 
+## ?
+1. circularity = 4*pi*area/(perimeter\^2)
+- https://answers.opencv.org/question/59955/program-that-check-for-the-roundness-of-ellipse/
+
 ## 22.03.24 (THU)
 1. Morphology(형태학) Operations
 - 4 popular operations
