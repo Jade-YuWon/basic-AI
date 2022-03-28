@@ -221,10 +221,14 @@ ap.add_argument("-i", "--image", required = True, help = "Path to the image")
 2. drawKeypoints
 - [OpenCV Blob or Circle Detection](https://www.delftstack.com/howto/python/opencv-blob-detection/)
 - 
-3. 
 
 
-
+## 22.03.28 (TUE)
+1. kNN
+2. Processing of CT Lung Images as a Part of Radiomics - Aleksandr G. Zotin et al.
+- https://www.researchgate.net/publication/342118026_Processing_of_CT_Lung_Images_as_a_Part_of_Radiomics
+- Segmentation - PCA: 주성분 분석(主成分分析, Principal component analysis; PCA)은 고차원의 데이터를 저차원의 데이터로 환원시키는 기법을 말한다.
+- 병리학 (Pathology)
 
 
 
