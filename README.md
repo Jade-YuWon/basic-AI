@@ -230,6 +230,16 @@ ap.add_argument("-i", "--image", required = True, help = "Path to the image")
 - Segmentation - PCA: 주성분 분석(主成分分析, Principal component analysis; PCA)은 고차원의 데이터를 저차원의 데이터로 환원시키는 기법을 말한다.
 - 병리학 (Pathology)
 
-
+## 22.03.30 (WED)
+1. 이미지 연산 (Image Operation)
+- 블렌딩
+- 차영상 
+  - cv2.subtract(object_image, background_image)
+2. 이미지 반전 (Image Inversing)
+- inversed_image = 255 - original_image
+3. 임의의 이미지와 같은 크기의 검은 이미지를 만드려면?
+4. 십자가 그리기
+- drawMarker(InputOutputArray img, Point position, const Scalar& color, int markerType = MARKER_CROSS, int markerSize=20, int thickness=1, int line_type=8);
+5. 컨투어의 중심좌표 얻기
 
 
