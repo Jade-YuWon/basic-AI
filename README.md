@@ -241,5 +241,16 @@ ap.add_argument("-i", "--image", required = True, help = "Path to the image")
 4. 십자가 그리기
 - drawMarker(InputOutputArray img, Point position, const Scalar& color, int markerType = MARKER_CROSS, int markerSize=20, int thickness=1, int line_type=8);
 5. 컨투어의 중심좌표 얻기
-
+- 모멘트 이용
+- M = moments(contour)
+- center_x = int(M\['m10']/M\['m00'])
+- center_y = int(M\['m01']/M\['m00'])
+- (center_x, center_y)
+6. 이미지 분할하여 저장
+- 이미지 가로 폭(너비), 세로 폭(높이) 구하기
+  - img3_h, img3_w = img3.shape\[:2]
+- 원하는 비율로 분할하여 저장
+  - img3_w_half = int(img3_w / 2)
+  - img3_A = img3\[0:img3_h, 0:img3_w_half]
+  - img3_B = img3\[0:img3_h, img3_w_half:]
 
