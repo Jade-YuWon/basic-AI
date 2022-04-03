@@ -253,4 +253,13 @@ ap.add_argument("-i", "--image", required = True, help = "Path to the image")
   - img3_w_half = int(img3_w / 2)
   - img3_A = img3\[0:img3_h, 0:img3_w_half]
   - img3_B = img3\[0:img3_h, img3_w_half:]
-
+ 
+## 22.04.03 (SUN)
+- Histogram(히스토그램)
+  - 값이 높을 수록 밝고, 낮을 수록 어둡다.
+  - 균등할수록 명암비가 높고 선명하며, 밀집되어있을수록 명암비가 낮고 흐릿하다.
+    - Histogram Stretching (히스토그램 스트레칭): 명암비 향상
+    - Histogram Equalization(히스토그램 균등화, 평활화, 평탄화): 어두운 곳은 더 어둡게, 밝은 곳은 더 밝게 한다. (스트레칭보다 좀 더 나은 품질, 빈도 저고고저)
+    - CLAHE(Contrast Limited Adaptive Histogram Equalization): 이미지 일부분에만 equalization을 적용하는 기법. (일정한 영역을 분리하여 해당 영역에 대한 히스토그램 균등화 연산을 수행해 그 결과를 조합)
+    - Backprojection: 2차원 히스토그램을 응용하여 이미지에서 원하는 객체만을 추출해 내는 방법
+  - 참고 http://www.gisdeveloper.co.kr/?p=6652 https://www.charlezz.com/?p=44834 https://deep-learning-study.tistory.com/122
