@@ -262,4 +262,8 @@ ap.add_argument("-i", "--image", required = True, help = "Path to the image")
     - Histogram Equalization(히스토그램 균등화, 평활화, 평탄화): 어두운 곳은 더 어둡게, 밝은 곳은 더 밝게 한다. (스트레칭보다 좀 더 나은 품질, 빈도 저고고저)
     - CLAHE(Contrast Limited Adaptive Histogram Equalization): 이미지 일부분에만 equalization을 적용하는 기법. (일정한 영역을 분리하여 해당 영역에 대한 히스토그램 균등화 연산을 수행해 그 결과를 조합)
     - Backprojection: 2차원 히스토그램을 응용하여 이미지에서 원하는 객체만을 추출해 내는 방법
-  - 참고 http://www.gisdeveloper.co.kr/?p=6652 https://www.charlezz.com/?p=44834 https://deep-learning-study.tistory.com/122
+  - 참고 http://www.gisdeveloper.co.kr/?p=6652 https://www.charlezz.com/?p=44834 https://deep-learning-study.tistory.com/12
+## 22.04.05 (TUE)
+- Multilinear subspace learning
+  - 영어에서 번역됨-다중 선형 부분 공간 학습은 차원 축소에 대한 접근 방식입니다. 관측치가 벡터화되어 데이터 텐서로 구성되거나 관측치가 데이터 텐서에 연결된 행렬 인 데이터 텐서에서 차원 축소를 수행 할 수 있습니다. https://en.wikipedia.org/wiki/Multilinear_subspace_learning
+  - 
