@@ -258,12 +258,25 @@ ap.add_argument("-i", "--image", required = True, help = "Path to the image")
 - Histogram(히스토그램)
   - 값이 높을 수록 밝고, 낮을 수록 어둡다.
   - 균등할수록 명암비가 높고 선명하며, 밀집되어있을수록 명암비가 낮고 흐릿하다.
-    - Histogram Stretching (히스토그램 스트레칭): 명암비 향상
+    - Histogram Stretching, Normalazation (히스토그램 스트레칭, 정규화): 명암비 향상
     - Histogram Equalization(히스토그램 균등화, 평활화, 평탄화): 어두운 곳은 더 어둡게, 밝은 곳은 더 밝게 한다. (스트레칭보다 좀 더 나은 품질, 빈도 저고고저)
     - CLAHE(Contrast Limited Adaptive Histogram Equalization): 이미지 일부분에만 equalization을 적용하는 기법. (일정한 영역을 분리하여 해당 영역에 대한 히스토그램 균등화 연산을 수행해 그 결과를 조합)
     - Backprojection: 2차원 히스토그램을 응용하여 이미지에서 원하는 객체만을 추출해 내는 방법
-  - 참고 http://www.gisdeveloper.co.kr/?p=6652 https://www.charlezz.com/?p=44834 https://deep-learning-study.tistory.com/12
+  - 참고 http://www.gisdeveloper.co.kr/?p=6652 https://www.charlezz.com/?p=44834 https://deep-learning-study.tistory.com/122
 ## 22.04.05 (TUE)
 - Multilinear subspace learning
   - 영어에서 번역됨-다중 선형 부분 공간 학습은 차원 축소에 대한 접근 방식입니다. 관측치가 벡터화되어 데이터 텐서로 구성되거나 관측치가 데이터 텐서에 연결된 행렬 인 데이터 텐서에서 차원 축소를 수행 할 수 있습니다. https://en.wikipedia.org/wiki/Multilinear_subspace_learning
   - 
+## 22.04.06 (WED)
+1. 이미지 리사이즈
+- ![image](https://user-images.githubusercontent.com/77564623/162023192-ccf9d19e-0a74-453f-a550-2dd39b9ef9c5.png)
+- cv2_imshow(cv2.resize(img3_color, (0, 0), fx=0.7, fy=0.7))
+2. 형태학연산 cv2 코드
+  - 1. Erosion (침식) 
+    - eye_bin_erode = cv2.erode(eye_bin_close, kernel_eye, iterations=3)
+  - 2. Dilation (팽창)
+    - eye_dilated = cv2.dilate(eye_bin_erode, kernel_eye, iterations=3)
+  - 3. Opening
+  - 4. Closing
+    - eye_bin_close = cv2.morphologyEx(bin3, cv2.MORPH_CLOSE, kernel_eye, iterations=1)
+
