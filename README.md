@@ -280,3 +280,5 @@ ap.add_argument("-i", "--image", required = True, help = "Path to the image")
   - 4. Closing
     - eye_bin_close = cv2.morphologyEx(bin3, cv2.MORPH_CLOSE, kernel_eye, iterations=1)
 
+## 22.04.07 (THU)
+- image binary operation https://pyimagesearch.com/2015/02/09/removing-contours-image-using-python-opencv/
