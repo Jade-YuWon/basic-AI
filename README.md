@@ -282,3 +282,8 @@ ap.add_argument("-i", "--image", required = True, help = "Path to the image")
 
 ## 22.04.07 (THU)
 - image binary operation https://pyimagesearch.com/2015/02/09/removing-contours-image-using-python-opencv/
+- Digital Twinization
+  - 디지털 트윈(Digital Twin)은 물리적 자산, 시스템 또는 프로세스를 소프트웨어로 표현하는 것 https://www.gereports.kr/everthing-about-digital-twin/
+  - 자산 디지털 트윈 (Asset Digital Twin)
+  - 네트워크 디지털 트윈 (Network Digital Twin)
+  - 프로세스 디지털 트윈 (Process Digital Twin)
