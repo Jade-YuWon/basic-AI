@@ -1,4 +1,4 @@
-# basic-CV
+# basic-CV and Image Processing
 learning records of basic Computer Vision, such as python data analasis and pandas, etc.
 
 # Long-term Study Plan
@@ -287,3 +287,7 @@ ap.add_argument("-i", "--image", required = True, help = "Path to the image")
   - 자산 디지털 트윈 (Asset Digital Twin)
   - 네트워크 디지털 트윈 (Network Digital Twin)
   - 프로세스 디지털 트윈 (Process Digital Twin)
+
+## 22.04.14 (THU)
+- Why are our eyes get saturated?
+  - Answer: Our eye get too much of light signals by our rod cells, kind of eye cells, that distinguish white and black. reference: ![image](https://user-images.githubusercontent.com/77564623/163228019-ea7d0c49-a694-4c9e-88fa-c97c23157938.png)
