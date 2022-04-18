@@ -291,3 +291,20 @@ ap.add_argument("-i", "--image", required = True, help = "Path to the image")
 ## 22.04.14 (THU)
 - Why are our eyes get saturated?
   - Answer: Our eye get too much of light signals by our rod cells, that is a kind of eye cells, that distinguish white and black. reference: ![image](https://user-images.githubusercontent.com/77564623/163228019-ea7d0c49-a694-4c9e-88fa-c97c23157938.png)
+
+## 22.04.15 (FRI)
+- AI EXPO KOREA 2022
+  - GAN
+    - 1. [Wikipedia: GAN](https://en.wikipedia.org/wiki/Generative_adversarial_network) : The core idea of a GAN is based on the "indirect" training through the discriminator, another neural network that is able to tell how much an input is "realistic", which itself is also being updated dynamically. This basically means that **the generator is not trained to minimize the distance to a specific image, but rather to fool the discriminator**. This enables the model to learn in an unsupervised manner.
+    - 2. [Tensorflow Korea: Deep Convolutional GAN(심층 합성곱 생성적 적대 신경망) Tutorial](https://www.tensorflow.org/tutorials/generative/dcgan?hl=ko) : generator(생성자) vs. discriminator(감별자) 
+    - ![image](https://user-images.githubusercontent.com/77564623/163768870-9a617d99-0766-4089-b236-6a4938752d8a.png)
+    - 3. [Arxiv Paper](https://arxiv.org/pdf/1406.2661.pdf) : [linearly interpolating](https://en.wikipedia.org/wiki/Linear_interpolation)
+    - ![image](https://user-images.githubusercontent.com/77564623/163772890-7a7e84e0-f856-4cdb-b0fd-70a67cdb1860.png)
+    - 4. [GAN 논문 리뷰 - WE GONNA MAKE IT](https://wegonnamakeit.tistory.com/54) : [Pytorch MNIST GAN Tutorial](https://ws-choi.github.io/blog-kor/seminar/tutorial/mnist/pytorch/gan/GAN-%ED%8A%9C%ED%86%A0%EB%A6%AC%EC%96%BC/), Minimax Problem of GAN, Backpropagation instead of MCMC(Markov Chain Monte Carlo)
+    - 5. 응용(Application): [Img2Img](https://github.com/leehomyc/Img2Img-Translation-Networks), Super-resolution
+    - 6. [NIPS 2016 GAN Tutorial](https://arxiv.org/pdf/1701.00160.pdf) : (1) Why generative modeling is a topic worth studying, (2) how generative models work, and how GANs compare to other generative models, (3) the details of how GANs work, (4) research frontiers in GANs, and (5) state-of-the-art image models that combine GANs with other methods. Finally, the tutorial contains three exercises for readers to complete, and the solutions to these exercises.
+  - ViT
+    - 1. [Transformer Wikipedia](https://en.wikipedia.org/wiki/Transformer_(machine_learning_model)) --> [ViT Wikipedia](https://en.wikipedia.org/wiki/Vision_transformer)
+    - 2. [[논문요약] Vision분야에서 드디어 Transformer가 등장 - ViT - KM-Hana](https://kmhana.tistory.com/27) : Transformers 종류 1. BERT : Self-Supervised Pre-Training Task / 2. GPT : 일방향 언어 모델링
+    - ![image](https://user-images.githubusercontent.com/77564623/163774571-b5ee4bc3-269d-4418-b071-6c175da7a94a.png)
+
