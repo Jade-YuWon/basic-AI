@@ -307,4 +307,7 @@ ap.add_argument("-i", "--image", required = True, help = "Path to the image")
     - 1. [Transformer Wikipedia](https://en.wikipedia.org/wiki/Transformer_(machine_learning_model)) --> [ViT Wikipedia](https://en.wikipedia.org/wiki/Vision_transformer)
     - 2. [[논문요약] Vision분야에서 드디어 Transformer가 등장 - ViT - KM-Hana](https://kmhana.tistory.com/27) : Transformers 종류 1. BERT : Self-Supervised Pre-Training Task / 2. GPT : 일방향 언어 모델링
     - ![image](https://user-images.githubusercontent.com/77564623/163774571-b5ee4bc3-269d-4418-b071-6c175da7a94a.png)
+    - 3. CNN의 한계
+    - ![image](https://user-images.githubusercontent.com/77564623/163774992-4a3eaa46-a9cc-4152-8426-906ae587ef0f.png)
+
 
