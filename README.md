@@ -291,6 +291,7 @@ ap.add_argument("-i", "--image", required = True, help = "Path to the image")
 ## 22.04.14 (THU)
 - Why are our eyes get saturated?
   - Answer: Our eye get too much of light signals by our rod cells, that is a kind of eye cells, that distinguish white and black. reference: ![image](https://user-images.githubusercontent.com/77564623/163228019-ea7d0c49-a694-4c9e-88fa-c97c23157938.png)
+- astigmatism: can see lines from lights.
 
 ## 22.04.15 (FRI)
 - AI EXPO KOREA 2022
@@ -310,4 +311,9 @@ ap.add_argument("-i", "--image", required = True, help = "Path to the image")
     - 3. CNN의 한계
     - ![image](https://user-images.githubusercontent.com/77564623/163774992-4a3eaa46-a9cc-4152-8426-906ae587ef0f.png)
 
+## 22.05.06 (FRI)
+- Image Crawling: Python Selenium, chromedriver library
+- Python
+  - try except
+  - pass, continue, break
 
